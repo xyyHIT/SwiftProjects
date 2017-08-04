@@ -14,6 +14,7 @@
 		144EDDD11F34131000F52043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144EDDCF1F34131000F52043 /* LaunchScreen.storyboard */; };
 		144EDDDC1F34131000F52043 /* SimpleClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EDDDB1F34131000F52043 /* SimpleClockTests.swift */; };
 		144EDDE71F34131000F52043 /* SimpleClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EDDE61F34131000F52043 /* SimpleClockUITests.swift */; };
+		144EDDF51F34175E00F52043 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EDDF41F34175E00F52043 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		144EDDE21F34131000F52043 /* SimpleClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		144EDDE61F34131000F52043 /* SimpleClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClockUITests.swift; sourceTree = "<group>"; };
 		144EDDE81F34131000F52043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144EDDF41F34175E00F52043 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				144EDDCD1F34131000F52043 /* Assets.xcassets */,
 				144EDDCF1F34131000F52043 /* LaunchScreen.storyboard */,
 				144EDDD21F34131000F52043 /* Info.plist */,
+				144EDDF41F34175E00F52043 /* File.swift */,
 			);
 			path = SimpleClock;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				144EDDC91F34131000F52043 /* ViewController.swift in Sources */,
+				144EDDF51F34175E00F52043 /* File.swift in Sources */,
 				144EDDC71F34131000F52043 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.SimpleClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.SimpleClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
