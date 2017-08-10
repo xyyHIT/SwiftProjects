@@ -1,0 +1,6 @@
+framework module Pods_NetPicturesTests {
+  umbrella header "Pods-NetPicturesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

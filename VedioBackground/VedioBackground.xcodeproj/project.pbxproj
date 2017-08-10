@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144EDF3D1F35B2D500F52043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EDF3C1F35B2D500F52043 /* AppDelegate.swift */; };
+		144EDF3F1F35B2D500F52043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EDF3E1F35B2D500F52043 /* ViewController.swift */; };
+		144EDF421F35B2D500F52043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144EDF401F35B2D500F52043 /* Main.storyboard */; };
+		144EDF441F35B2D500F52043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144EDF431F35B2D500F52043 /* Assets.xcassets */; };
+		144EDF471F35B2D500F52043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144EDF451F35B2D500F52043 /* LaunchScreen.storyboard */; };
+		144EDF521F35B2D500F52043 /* VedioBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EDF511F35B2D500F52043 /* VedioBackgroundTests.swift */; };
+		144EDF5D1F35B2D500F52043 /* VedioBackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EDF5C1F35B2D500F52043 /* VedioBackgroundUITests.swift */; };
+		144EDF6B1F35B2F700F52043 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 144EDF6A1F35B2F700F52043 /* moments.mp4 */; };
+		144EDF6D1F35B63800F52043 /* BtnExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144EDF6C1F35B63800F52043 /* BtnExtensions.swift */; };
+		144EDF6F1F35B87200F52043 /* aaa.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 144EDF6E1F35B87200F52043 /* aaa.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		144EDF4E1F35B2D500F52043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144EDF311F35B2D500F52043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 144EDF381F35B2D500F52043;
+			remoteInfo = VedioBackground;
+		};
+		144EDF591F35B2D500F52043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144EDF311F35B2D500F52043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 144EDF381F35B2D500F52043;
+			remoteInfo = VedioBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144EDF391F35B2D500F52043 /* VedioBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VedioBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		144EDF3C1F35B2D500F52043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		144EDF3E1F35B2D500F52043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		144EDF411F35B2D500F52043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		144EDF431F35B2D500F52043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		144EDF461F35B2D500F52043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		144EDF481F35B2D500F52043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144EDF4D1F35B2D500F52043 /* VedioBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VedioBackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		144EDF511F35B2D500F52043 /* VedioBackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedioBackgroundTests.swift; sourceTree = "<group>"; };
+		144EDF531F35B2D500F52043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144EDF581F35B2D500F52043 /* VedioBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VedioBackgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		144EDF5C1F35B2D500F52043 /* VedioBackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedioBackgroundUITests.swift; sourceTree = "<group>"; };
+		144EDF5E1F35B2D500F52043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144EDF6A1F35B2F700F52043 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = moments.mp4; path = ../../../../Desktop/pic/moments.mp4; sourceTree = "<group>"; };
+		144EDF6C1F35B63800F52043 /* BtnExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnExtensions.swift; sourceTree = "<group>"; };
+		144EDF6E1F35B87200F52043 /* aaa.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = aaa.mp4; path = ../../../../Desktop/pic/aaa.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		144EDF361F35B2D500F52043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144EDF4A1F35B2D500F52043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144EDF551F35B2D500F52043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144EDF301F35B2D500F52043 = {
+			isa = PBXGroup;
+			children = (
+				144EDF3B1F35B2D500F52043 /* VedioBackground */,
+				144EDF501F35B2D500F52043 /* VedioBackgroundTests */,
+				144EDF5B1F35B2D500F52043 /* VedioBackgroundUITests */,
+				144EDF3A1F35B2D500F52043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		144EDF3A1F35B2D500F52043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				144EDF391F35B2D500F52043 /* VedioBackground.app */,
+				144EDF4D1F35B2D500F52043 /* VedioBackgroundTests.xctest */,
+				144EDF581F35B2D500F52043 /* VedioBackgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		144EDF3B1F35B2D500F52043 /* VedioBackground */ = {
+			isa = PBXGroup;
+			children = (
+				144EDF6E1F35B87200F52043 /* aaa.mp4 */,
+				144EDF6A1F35B2F700F52043 /* moments.mp4 */,
+				144EDF3C1F35B2D500F52043 /* AppDelegate.swift */,
+				144EDF3E1F35B2D500F52043 /* ViewController.swift */,
+				144EDF401F35B2D500F52043 /* Main.storyboard */,
+				144EDF431F35B2D500F52043 /* Assets.xcassets */,
+				144EDF451F35B2D500F52043 /* LaunchScreen.storyboard */,
+				144EDF481F35B2D500F52043 /* Info.plist */,
+				144EDF6C1F35B63800F52043 /* BtnExtensions.swift */,
+			);
+			path = VedioBackground;
+			sourceTree = "<group>";
+		};
+		144EDF501F35B2D500F52043 /* VedioBackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				144EDF511F35B2D500F52043 /* VedioBackgroundTests.swift */,
+				144EDF531F35B2D500F52043 /* Info.plist */,
+			);
+			path = VedioBackgroundTests;
+			sourceTree = "<group>";
+		};
+		144EDF5B1F35B2D500F52043 /* VedioBackgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				144EDF5C1F35B2D500F52043 /* VedioBackgroundUITests.swift */,
+				144EDF5E1F35B2D500F52043 /* Info.plist */,
+			);
+			path = VedioBackgroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		144EDF381F35B2D500F52043 /* VedioBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144EDF611F35B2D500F52043 /* Build configuration list for PBXNativeTarget "VedioBackground" */;
+			buildPhases = (
+				144EDF351F35B2D500F52043 /* Sources */,
+				144EDF361F35B2D500F52043 /* Frameworks */,
+				144EDF371F35B2D500F52043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VedioBackground;
+			productName = VedioBackground;
+			productReference = 144EDF391F35B2D500F52043 /* VedioBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		144EDF4C1F35B2D500F52043 /* VedioBackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144EDF641F35B2D500F52043 /* Build configuration list for PBXNativeTarget "VedioBackgroundTests" */;
+			buildPhases = (
+				144EDF491F35B2D500F52043 /* Sources */,
+				144EDF4A1F35B2D500F52043 /* Frameworks */,
+				144EDF4B1F35B2D500F52043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				144EDF4F1F35B2D500F52043 /* PBXTargetDependency */,
+			);
+			name = VedioBackgroundTests;
+			productName = VedioBackgroundTests;
+			productReference = 144EDF4D1F35B2D500F52043 /* VedioBackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		144EDF571F35B2D500F52043 /* VedioBackgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144EDF671F35B2D500F52043 /* Build configuration list for PBXNativeTarget "VedioBackgroundUITests" */;
+			buildPhases = (
+				144EDF541F35B2D500F52043 /* Sources */,
+				144EDF551F35B2D500F52043 /* Frameworks */,
+				144EDF561F35B2D500F52043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				144EDF5A1F35B2D500F52043 /* PBXTargetDependency */,
+			);
+			name = VedioBackgroundUITests;
+			productName = VedioBackgroundUITests;
+			productReference = 144EDF581F35B2D500F52043 /* VedioBackgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		144EDF311F35B2D500F52043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = www.xyy.com;
+				TargetAttributes = {
+					144EDF381F35B2D500F52043 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					144EDF4C1F35B2D500F52043 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 144EDF381F35B2D500F52043;
+					};
+					144EDF571F35B2D500F52043 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 144EDF381F35B2D500F52043;
+					};
+				};
+			};
+			buildConfigurationList = 144EDF341F35B2D500F52043 /* Build configuration list for PBXProject "VedioBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 144EDF301F35B2D500F52043;
+			productRefGroup = 144EDF3A1F35B2D500F52043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				144EDF381F35B2D500F52043 /* VedioBackground */,
+				144EDF4C1F35B2D500F52043 /* VedioBackgroundTests */,
+				144EDF571F35B2D500F52043 /* VedioBackgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		144EDF371F35B2D500F52043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144EDF471F35B2D500F52043 /* LaunchScreen.storyboard in Resources */,
+				144EDF6F1F35B87200F52043 /* aaa.mp4 in Resources */,
+				144EDF6B1F35B2F700F52043 /* moments.mp4 in Resources */,
+				144EDF441F35B2D500F52043 /* Assets.xcassets in Resources */,
+				144EDF421F35B2D500F52043 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144EDF4B1F35B2D500F52043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144EDF561F35B2D500F52043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		144EDF351F35B2D500F52043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144EDF3F1F35B2D500F52043 /* ViewController.swift in Sources */,
+				144EDF3D1F35B2D500F52043 /* AppDelegate.swift in Sources */,
+				144EDF6D1F35B63800F52043 /* BtnExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144EDF491F35B2D500F52043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144EDF521F35B2D500F52043 /* VedioBackgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144EDF541F35B2D500F52043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144EDF5D1F35B2D500F52043 /* VedioBackgroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		144EDF4F1F35B2D500F52043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 144EDF381F35B2D500F52043 /* VedioBackground */;
+			targetProxy = 144EDF4E1F35B2D500F52043 /* PBXContainerItemProxy */;
+		};
+		144EDF5A1F35B2D500F52043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 144EDF381F35B2D500F52043 /* VedioBackground */;
+			targetProxy = 144EDF591F35B2D500F52043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		144EDF401F35B2D500F52043 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				144EDF411F35B2D500F52043 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		144EDF451F35B2D500F52043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				144EDF461F35B2D500F52043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		144EDF5F1F35B2D500F52043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		144EDF601F35B2D500F52043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		144EDF621F35B2D500F52043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VedioBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.VedioBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		144EDF631F35B2D500F52043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VedioBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.VedioBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		144EDF651F35B2D500F52043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VedioBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.VedioBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VedioBackground.app/VedioBackground";
+			};
+			name = Debug;
+		};
+		144EDF661F35B2D500F52043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VedioBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.VedioBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VedioBackground.app/VedioBackground";
+			};
+			name = Release;
+		};
+		144EDF681F35B2D500F52043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VedioBackgroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.VedioBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VedioBackground;
+			};
+			name = Debug;
+		};
+		144EDF691F35B2D500F52043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VedioBackgroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.VedioBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VedioBackground;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		144EDF341F35B2D500F52043 /* Build configuration list for PBXProject "VedioBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144EDF5F1F35B2D500F52043 /* Debug */,
+				144EDF601F35B2D500F52043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144EDF611F35B2D500F52043 /* Build configuration list for PBXNativeTarget "VedioBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144EDF621F35B2D500F52043 /* Debug */,
+				144EDF631F35B2D500F52043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		144EDF641F35B2D500F52043 /* Build configuration list for PBXNativeTarget "VedioBackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144EDF651F35B2D500F52043 /* Debug */,
+				144EDF661F35B2D500F52043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		144EDF671F35B2D500F52043 /* Build configuration list for PBXNativeTarget "VedioBackgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144EDF681F35B2D500F52043 /* Debug */,
+				144EDF691F35B2D500F52043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 144EDF311F35B2D500F52043 /* Project object */;
+}

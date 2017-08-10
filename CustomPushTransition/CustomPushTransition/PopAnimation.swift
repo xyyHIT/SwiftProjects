@@ -1,0 +1,48 @@
+//
+//  PopAnimation.swift
+//  CustomPushTransition
+//
+//  Created by xuyang on 2017/8/6.
+//  Copyright © 2017年 www.xyy.com. All rights reserved.
+//
+
+import UIKit
+
+class PopAnimation: NSObject, UIViewControllerAnimatedTransitioning, CAAnimationDelegate {
+    var transitionContext: UIViewControllerContextTransitioning?
+    
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+        return 2
+    }
+    
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+        self.transitionContext = transitionContext
+        
+        let toVC = transitionContext.viewController(forKey: .to)
+        let fromVC = transitionContext.viewController(forKey: .from)
+        
+        let containerView = transitionContext.containerView
+        containerView.addSubview((toVC?.view)!)
+        containerView.addSubview((fromVC?.view)!)
+        
+        let startPath = UIBezierPath(rect: CGRect(x: 0, y: XYHeight*0.5-2, width: XYWidth, height: 4))
+        let finalPath = UIBezierPath(rect: CGRect(x: 0, y: 0, width: XYWidth, height: XYHeight))
+        let maskLayer = CAShapeLayer()
+        maskLayer.path = finalPath.cgPath
+        fromVC?.view.layer.mask = maskLayer
+        
+        let animation = CABasicAnimation(keyPath: "path")
+        animation.fromValue = finalPath.cgPath
+        animation.toValue = startPath.cgPath
+        animation.duration = transitionDuration(using: transitionContext)
+        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.delegate = self
+        maskLayer.add(animation, forKey: "path")
+    }
+    
+    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+        transitionContext?.completeTransition(!((transitionContext?.transitionWasCancelled)!))
+        transitionContext?.viewController(forKey: .from)?.view.layer.mask = nil
+        transitionContext?.viewController(forKey: .to)?.view.layer.mask = nil
+    }
+}

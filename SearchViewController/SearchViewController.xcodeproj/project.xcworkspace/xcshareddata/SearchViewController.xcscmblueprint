@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8D7564C3C7D4F2C8941D919F3AEAF9C311D8240F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D7564C3C7D4F2C8941D919F3AEAF9C311D8240F" : 9223372036854775807,
+    "0F28FD6293C960D98206D9464E78B20C3618517C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "955B289A-0E96-4FBD-AF22-8CCE39BBCA69",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D7564C3C7D4F2C8941D919F3AEAF9C311D8240F" : "SwiftProjects\/",
+    "0F28FD6293C960D98206D9464E78B20C3618517C" : "..\/SwiftProjects\/SwiftPractice"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SearchViewController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SearchViewController\/SearchViewController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xyyHIT\/SwiftPractice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F28FD6293C960D98206D9464E78B20C3618517C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xyyHIT\/SwiftProjects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D7564C3C7D4F2C8941D919F3AEAF9C311D8240F"
+    }
+  ]
+}
