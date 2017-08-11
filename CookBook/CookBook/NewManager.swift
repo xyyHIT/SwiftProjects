@@ -46,13 +46,11 @@ class NetManager {
     func menuData() {
         self.HUDShow()
         Alamofire.request(URL(string: mainMenuURL)!).responseJSON { (response) in
-            print(response.request as Any)
-            print(response.data as Any)
-            print(response.result)
             if let JSON =  response.result.value {
-                let datas = ShowData.parseData(data: JSON)
+                print(JSON)
+                let datas = MenuData.parseData(data: JSON)
                 if let datas = datas {
-                    _ = self.delegates.map{$0.dataDownload(datas: datas, type: .MainData)}
+                    _ = self.delegates.map{$0.dataDownload(datas: datas, type: .MenuData)}
                 }
             }
         }
@@ -70,7 +68,7 @@ class NetManager {
     
     func HUDShow() {
         HUD.show(.labeledProgress(title: "正在获取数据", subtitle: "请稍后..."))
-        HUD.hide(afterDelay: 10) { _ in
+        HUD.hide(afterDelay: 10) { (_) in
             HUD.flash(.error, delay: 1)
         }
     }

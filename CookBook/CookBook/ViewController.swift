@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MJRefresh
 
 let XYRect = UIScreen.main.bounds
 let XYWidth = XYRect.width
@@ -40,6 +41,11 @@ class ViewController: UIViewController {
         tableView.separatorStyle = .singleLine
         tableView.separatorInset = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: XYWidth - 280)
         tableView.delegate = self
+        tableView.dataSource = self
+        tableView.tableFooterView = UIView()
+        tableView.backgroundColor = .clear
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: reuseIdentifier)
+        view.addSubview(tableView)
     }
 
 }
@@ -63,6 +69,7 @@ struct MenuData {
                 }
                 result.append(menu)
             }
+            print(result)
             return result
         }
         return nil
@@ -75,7 +82,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate, NetDelegat
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return datas.count
+        return self.datas.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -83,7 +90,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate, NetDelegat
         let data = self.datas[indexPath.row]
         cell.selectionStyle = .gray
         cell.backgroundColor = .clear
-        cell.textLabel?.text = data.title
+        cell.textLabel?.text = "          " + data.title
         cell.textLabel?.textColor = .white
         cell.textLabel?.font = UIFont.systemFont(ofSize: 14)
         let oldImage = cell.viewWithTag(1) ?? UIImageView(frame: CGRect(x: 10, y: 10, width: 30, height: 30))

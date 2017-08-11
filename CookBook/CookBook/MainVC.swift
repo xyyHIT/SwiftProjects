@@ -97,13 +97,15 @@ class MainCustomCell: UITableViewCell {
     let detail = UILabel()
     let showImage = UIImageView()
     
-    override init(style: UITableViewCellStyle, reuseIdentifier reuseIdentifer: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifer)
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        title.frame = CGRect(x: 80, y: 10, width: XYWidth-80-40, height: 40)
         showImage.frame = CGRect(x: 10, y: 10, width: 60, height: 60)
         title.font = UIFont.systemFont(ofSize: 16)
         title.numberOfLines = 0
         title.textColor = .black
         detail.frame = CGRect(x: 80, y: 50, width: XYWidth-80-40, height: 20)
+        detail.font = UIFont.systemFont(ofSize: 12)
         detail.textColor = .gray
         accessoryType = .disclosureIndicator
         
@@ -118,7 +120,7 @@ class MainCustomCell: UITableViewCell {
     
     func buildUI(data: ShowData) {
         title.text = data.title
-        detail.text = data.jianjie
+        detail.text = data.catename
         NetManager.share.downloadImage(imageView: showImage, imageURL: URL(string: data.thumb)!)
     }
 }
